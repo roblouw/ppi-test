@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Testing high PPI vs high resolution images for the web</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Testing high PPI vs high resolution images for the web</h1>
+        <p>A test to see if there is a difference between increasing PPI vs increasing resolution for images on the web.</p>
+        <div class="grid">
+            <div class="grid-item">
+                <figure>
+                    <img src="images/72ppi_400px_raster-image.jpg" alt="photo of flowers in a variety of colours">
+                    <figcaption>Type: 400px JPEG photo at 72ppi</figcaption>
+                    <figcaption>Size: 78 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/144ppi_400px_raster-image.jpg" alt="photo of flowers in a variety of colours">
+                    <figcaption>Type: 400px JPEG photo at 144ppi</figcaption>
+                    <figcaption>Size: 78 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/216ppi_400px_raster-image.jpg" alt="photo of flowers in a variety of colours">
+                    <figcaption>Type: 400px JPEG photo at 216ppi</figcaption>
+                    <figcaption>Size: 74 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/72ppi_400px_raster-image@2x.jpg" alt="photo of flowers in a variety of colours">
+                    <figcaption>Type: 400px JPEG photo @2x (800px)</figcaption>
+                    <figcaption>Size: 164 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/72ppi_400px_raster-image@3x.jpg" alt="photo of flowers in a variety of colours">
+                    <figcaption>Type: 400px JPEG photo @3x (1200px)</figcaption>
+                    <figcaption>Size: 307 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/72ppi_400px_vector-image.png" alt="image with shapes and letters">
+                    <figcaption>Type: 400px PNG image at 72ppi</figcaption>
+                    <figcaption>Size: 12 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/144ppi_400px_vector-image.png" alt="image with shapes and letters">
+                    <figcaption>Type: 400px PNG image at 144ppi</figcaption>
+                    <figcaption>Size: 12 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/216ppi_400px_vector-image.png" alt="image with shapes and letters">
+                    <figcaption>Type: 400px PNG image at 216ppi</figcaption>
+                    <figcaption>Size: 12 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/72ppi_400px_vector-image@2x.png" alt="image with shapes and letters">
+                    <figcaption>Type: 400px PNG image @2x (800px)</figcaption>
+                    <figcaption>Size: 20 KB</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                    <img src="images/72ppi_400px_vector-image@3x.png" alt="image with shapes and letters">
+                    <figcaption>Type: 400px PNG image @3x (1200px)</figcaption>
+                    <figcaption>Size: 33 KB</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
